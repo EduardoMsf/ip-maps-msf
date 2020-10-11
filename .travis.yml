@@ -1,7 +1,8 @@
 lenguage: node_js
 cache:
-  directories: 
-    -~!@/.npm
+  directories:
+    - node_modules
+    - ~/.npm
 node_js:
   - '12'
 git:
@@ -17,4 +18,4 @@ deploy:
   target-branch: master
   commit_message: "Deploy realase ${TRAVIS_TAG}"
   on:
-    branch: master
+    branch: main
