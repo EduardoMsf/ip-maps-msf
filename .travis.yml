@@ -15,7 +15,7 @@ deploy:
   keep-history: true
   github-token: $GITHUB-TOKEN
   local-dir: /dist
-  target-branch: master
+  target-branch: main
   commit_message: "Deploy realase ${TRAVIS_TAG}"
   on:
     branch: main
