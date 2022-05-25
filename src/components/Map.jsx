@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 const MapIP = props =>{
   
   const iconL = new Leaflet.Icon({
-    iconUrl: '../../public/images/marcador.svg',
+    iconUrl: "https://res.cloudinary.com/dheyjds01/image/upload/v1653490515/marcador_lkl3qu.svg",
     iconSize: [50,50]
   })
   
